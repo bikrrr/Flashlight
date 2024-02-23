@@ -23,10 +23,12 @@ enum LightState {
 
     var symbol: String {
         switch self {
-        case .off, .misdirection, .hidden:
-            "xmark.circle"
+        case .off:
+            "circle"
         case .on:
             "checkmark.circle.fill"
+        case .misdirection, .hidden:
+            "xmark.circle"
         }
     }
 }
