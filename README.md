@@ -1,1 +1,1 @@
-Simple response time game for iOS, iPadOS, and macOS built during the [Flashlight Hacking with Swift+ livestream](https://www.hackingwithswift.com/plus/live-streams/flashlight)https://www.hackingwithswift.com/plus/live-streams/flashlight with [Paul Hudson](https://github.com/twostraws)https://github.com/twostraws.
+Simple response time game for iOS, iPadOS, and macOS built during the [Flashlight Hacking with Swift+ livestream](https://www.hackingwithswift.com/plus/live-streams/flashlight) with [Paul Hudson](https://github.com/twostraws).
