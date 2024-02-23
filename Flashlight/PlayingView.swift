@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PlayingView: View {
     @Environment(Game.self) var game
+    @Environment(\.accessibilityDifferentiateWithoutColor) var accessibilityDifferentiateWithoutColor
 
     var body: some View {
         Grid(horizontalSpacing: 2, verticalSpacing: 2) {
@@ -18,8 +19,17 @@ struct PlayingView: View {
                         Button {
                             game.press (row, col)
                         } label: {
-                            Circle ()
-                                .fill(game.rows[row][col].color)
+                            ZStack {
+                                Circle ()
+                                    .fill(game.rows[row][col].color)
+
+                                if accessibilityDifferentiateWithoutColor {
+                                    Image(systemName: game.rows[row][col].symbol)
+                                        .font(.largeTitle)
+                                        .foregroundStyle(.black)
+                                        .dynamicTypeSize(...DynamicTypeSize.large)
+                                }
+                            }
                         }
                         .buttonStyle(.plain)
                     }

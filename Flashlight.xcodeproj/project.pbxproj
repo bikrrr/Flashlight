@@ -18,6 +18,7 @@
 		D8440B9A2B88257A003B420C /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8440B992B88257A003B420C /* PlayingView.swift */; };
 		D8440B9C2B882B8F003B420C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8440B9B2B882B8F003B420C /* MenuView.swift */; };
 		D8440B9E2B882CB2003B420C /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8440B9D2B882CB2003B420C /* GameOverView.swift */; };
+		D8C186BF2B88CE8200978B1E /* Bundle-AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C186BE2B88CE8200978B1E /* Bundle-AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D8440B992B88257A003B420C /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		D8440B9B2B882B8F003B420C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D8440B9D2B882CB2003B420C /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		D8C186BE2B88CE8200978B1E /* Bundle-AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-AudioPlayer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +68,16 @@
 		D8440B812B881005003B420C /* Flashlight */ = {
 			isa = PBXGroup;
 			children = (
+				D8440B9D2B882CB2003B420C /* GameOverView.swift */,
+				D8440B952B881156003B420C /* LightState.swift */,
+				D8440B972B8811BA003B420C /* Game.swift */,
 				D8440B822B881005003B420C /* FlashlightApp.swift */,
 				D8440B842B881005003B420C /* ContentView.swift */,
 				D8440B992B88257A003B420C /* PlayingView.swift */,
 				D8440B9B2B882B8F003B420C /* MenuView.swift */,
-				D8440B9D2B882CB2003B420C /* GameOverView.swift */,
-				D8440B952B881156003B420C /* LightState.swift */,
-				D8440B972B8811BA003B420C /* Game.swift */,
 				D8440B912B88110C003B420C /* correct.wav */,
 				D8440B922B88110C003B420C /* wrong.wav */,
+				D8C186BE2B88CE8200978B1E /* Bundle-AudioPlayer.swift */,
 				D8440B862B881006003B420C /* Assets.xcassets */,
 				D8440B882B881006003B420C /* Flashlight.entitlements */,
 				D8440B892B881006003B420C /* Preview Content */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8440B9E2B882CB2003B420C /* GameOverView.swift in Sources */,
+				D8C186BF2B88CE8200978B1E /* Bundle-AudioPlayer.swift in Sources */,
 				D8440B962B881156003B420C /* LightState.swift in Sources */,
 				D8440B9C2B882B8F003B420C /* MenuView.swift in Sources */,
 				D8440B852B881005003B420C /* ContentView.swift in Sources */,
